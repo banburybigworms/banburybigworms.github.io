@@ -21,6 +21,20 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.3.2/react.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.3.2/react-dom.js"></script>
 
-        <script type="text/babel" src="index.js"></script>
+        <script type="text/babel">
+var HelloWorld = React.createClass({
+    render: function() {
+        return ( <
+            h1 > Hello world < /h1>
+        )
+    }
+});
+
+ReactDOM.render( <
+    HelloWorld / > ,
+    document.getElementById('area')
+);
+
+</script>
     </body>
 </html>
